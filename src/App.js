@@ -5,6 +5,7 @@ import {
   useNavigate,
   Link,
   useLocation,
+  useHistory,
 } from 'react-router-dom';
 import tabs from './tabs.json';
 import AppBar from '@mui/material/AppBar';
@@ -35,7 +36,13 @@ const App = () => {
     if (location.pathname === '/') {
       navigate(sortedTabsData[0].id);
     }
-  }, [location, navigate]);
+  }, []);
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      navigate(sortedTabsData[0].id);
+    }
+  }, [location, navigate, sortedTabsData]);
 
   return (
     <Box
