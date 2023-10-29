@@ -1,17 +1,41 @@
 {
   "files": {
-    "main.css": "/test-CMS-task/static/css/main.06c625d5.css",
-    "main.js": "/test-CMS-task/static/js/main.a833884d.js",
-    "static/css/475.b7370e0e.chunk.css": "/test-CMS-task/static/css/475.b7370e0e.chunk.css",
-    "static/js/475.fd1b6c06.chunk.js": "/test-CMS-task/static/js/475.fd1b6c06.chunk.js",
+    "main.css": "/test-CMS-task/static/css/main.e6c13ad2.css",
+    "main.js": "/test-CMS-task/static/js/main.7330bad8.js",
+    "static/css/413.26fc2b9b.chunk.css": "/test-CMS-task/static/css/413.26fc2b9b.chunk.css",
+    "static/js/413.a42a9124.chunk.js": "/test-CMS-task/static/js/413.a42a9124.chunk.js",
+    "static/css/294.26fc2b9b.chunk.css": "/test-CMS-task/static/css/294.26fc2b9b.chunk.css",
+    "static/js/294.2bac8d23.chunk.js": "/test-CMS-task/static/js/294.2bac8d23.chunk.js",
+    "static/css/396.c7e91a58.chunk.css": "/test-CMS-task/static/css/396.c7e91a58.chunk.css",
+    "static/js/396.e2ed3151.chunk.js": "/test-CMS-task/static/js/396.e2ed3151.chunk.js",
+    "static/css/604.c7e91a58.chunk.css": "/test-CMS-task/static/css/604.c7e91a58.chunk.css",
+    "static/js/604.6c0bec79.chunk.js": "/test-CMS-task/static/js/604.6c0bec79.chunk.js",
+    "static/css/313.c7e91a58.chunk.css": "/test-CMS-task/static/css/313.c7e91a58.chunk.css",
+    "static/js/313.82c880e0.chunk.js": "/test-CMS-task/static/js/313.82c880e0.chunk.js",
+    "static/js/866.370b6422.chunk.js": "/test-CMS-task/static/js/866.370b6422.chunk.js",
+    "static/js/204.05639ab4.chunk.js": "/test-CMS-task/static/js/204.05639ab4.chunk.js",
+    "static/js/408.389d7912.chunk.js": "/test-CMS-task/static/js/408.389d7912.chunk.js",
+    "static/js/556.d4b04ff1.chunk.js": "/test-CMS-task/static/js/556.d4b04ff1.chunk.js",
     "index.html": "/test-CMS-task/index.html",
-    "main.06c625d5.css.map": "/test-CMS-task/static/css/main.06c625d5.css.map",
-    "main.a833884d.js.map": "/test-CMS-task/static/js/main.a833884d.js.map",
-    "475.b7370e0e.chunk.css.map": "/test-CMS-task/static/css/475.b7370e0e.chunk.css.map",
-    "475.fd1b6c06.chunk.js.map": "/test-CMS-task/static/js/475.fd1b6c06.chunk.js.map"
+    "main.e6c13ad2.css.map": "/test-CMS-task/static/css/main.e6c13ad2.css.map",
+    "main.7330bad8.js.map": "/test-CMS-task/static/js/main.7330bad8.js.map",
+    "413.26fc2b9b.chunk.css.map": "/test-CMS-task/static/css/413.26fc2b9b.chunk.css.map",
+    "413.a42a9124.chunk.js.map": "/test-CMS-task/static/js/413.a42a9124.chunk.js.map",
+    "294.26fc2b9b.chunk.css.map": "/test-CMS-task/static/css/294.26fc2b9b.chunk.css.map",
+    "294.2bac8d23.chunk.js.map": "/test-CMS-task/static/js/294.2bac8d23.chunk.js.map",
+    "396.c7e91a58.chunk.css.map": "/test-CMS-task/static/css/396.c7e91a58.chunk.css.map",
+    "396.e2ed3151.chunk.js.map": "/test-CMS-task/static/js/396.e2ed3151.chunk.js.map",
+    "604.c7e91a58.chunk.css.map": "/test-CMS-task/static/css/604.c7e91a58.chunk.css.map",
+    "604.6c0bec79.chunk.js.map": "/test-CMS-task/static/js/604.6c0bec79.chunk.js.map",
+    "313.c7e91a58.chunk.css.map": "/test-CMS-task/static/css/313.c7e91a58.chunk.css.map",
+    "313.82c880e0.chunk.js.map": "/test-CMS-task/static/js/313.82c880e0.chunk.js.map",
+    "866.370b6422.chunk.js.map": "/test-CMS-task/static/js/866.370b6422.chunk.js.map",
+    "204.05639ab4.chunk.js.map": "/test-CMS-task/static/js/204.05639ab4.chunk.js.map",
+    "408.389d7912.chunk.js.map": "/test-CMS-task/static/js/408.389d7912.chunk.js.map",
+    "556.d4b04ff1.chunk.js.map": "/test-CMS-task/static/js/556.d4b04ff1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c625d5.css",
-    "static/js/main.a833884d.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7330bad8.js"
   ]
 }

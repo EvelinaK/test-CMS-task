@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/204.05639ab4.chunk.js","mappings":"sIAMA,UANmB,WAAH,OACdA,EAAAA,EAAAA,KAAA,OAAAC,UACED,EAAAA,EAAAA,KAAA,MAAAC,SAAI,WACA,C","sources":["tabs/dummyChart.jsx"],"sourcesContent":["const DummyChart = () => (\n  <div>\n    <h2>Chart</h2>\n  </div>\n);\n\nexport default DummyChart;\n"],"names":["_jsx","children"],"sourceRoot":""}

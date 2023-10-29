@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkCMS_test_task=self.webpackChunkCMS_test_task||[]).push([[294],{7294:function(t,e,s){s.r(e),e.default={tableBox:"DummyTable_tableBox__tY6-2"}}}]);
+//# sourceMappingURL=294.2bac8d23.chunk.js.map
