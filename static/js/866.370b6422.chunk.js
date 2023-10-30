@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkCMS_test_task=self.webpackChunkCMS_test_task||[]).push([[866],{8866:function(t,e,s){s.r(e);s(2791);var n=s(184);e.default=function(){return(0,n.jsx)("div",{children:"Loading..."})}}}]);
-//# sourceMappingURL=866.370b6422.chunk.js.map

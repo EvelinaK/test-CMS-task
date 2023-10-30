@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkCMS_test_task=self.webpackChunkCMS_test_task||[]).push([[427],{8427:function(n,t,e){e.r(t),e.d(t,{Container:function(){return i}});var r,u=e(168),i=e(9256).ZP.div(r||(r=(0,u.Z)(["\n  flex: ",";\n  padding: 45px 32px 16px 32px;\n  border-radius: 4px;\n  background-color: #242731;\n  height: ",";\n"])),(function(n){return n.flex}),(function(n){return n.height+"px"||0}))}}]);
+//# sourceMappingURL=427.b3666ab5.chunk.js.map
