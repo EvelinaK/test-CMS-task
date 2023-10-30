@@ -1,35 +1,10 @@
-// const DummyTable = () => (
-//   <table>
-//     <thead>
-//       <tr>
-//         <th>Table</th>
-//         <th>Header 2</th>
-//       </tr>
-//     </thead>
-//     <tbody>
-//       <tr>
-//         <td>Data 1</td>
-//         <td>Data 2</td>
-//       </tr>
-//     </tbody>
-//   </table>
-// );
-
-// export default DummyTable;
-
-import { Box, Button, Typography, useTheme, styled } from '@mui/material';
-import React, { useMemo, useState } from 'react';
-import { Chip } from '@mui/material';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Box, Typography, styled } from '@mui/material';
+import React, { useState } from 'react';
 
 import TableComponent from '../components/TableComponent/index';
 import DashboardCard from '../components/Card/index';
 
-import {
-  ModelContainer,
-  CardImage,
-  ModelName,
-} from '../components/TableComponent/styled';
+import { ModelContainer, ModelName } from '../components/TableComponent/styled';
 
 const DummyTable = () => {
   const [currentPage, setCurrentPage] = useState(1);
