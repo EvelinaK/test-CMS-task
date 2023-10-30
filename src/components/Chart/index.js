@@ -24,7 +24,6 @@ function Chart({ data, value }) {
 
   const dataChart = data?.map(item => {
     const yyyy = item.date.slice(0, 4);
-    const dd = item.date.slice(-2);
     const mm = item.date.slice(5, 7);
     return {
       ...item,
