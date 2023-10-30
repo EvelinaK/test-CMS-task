@@ -155,7 +155,7 @@ const DummyTable = () => {
         <TableComponent
           data={mockTableData}
           columns={columns}
-          isFetching={false}
+          isFetching={!mockTableData.length}
           headerComponent={Header}
           onClickRow={onClickRow}
           pageCount={currentPage}
