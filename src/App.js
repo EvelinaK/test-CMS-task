@@ -7,11 +7,33 @@ import {
   useLocation,
 } from 'react-router-dom';
 import tabs from './tabs.json';
-import AppBar from '@mui/material/AppBar';
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
-import Tabs, { tabsClasses } from '@mui/material/Tabs';
+import { AppBar, Tab, Tabs, Box } from '@mui/material';
 import LinearProgress from '@mui/material/LinearProgress';
+
+import { styled } from '@mui/material';
+
+const StyledTab = styled(Tab)(() => ({
+  '&.MuiTab-root': {
+    color: 'rgba(255, 255, 255, 0.6);',
+    '&:hover': {
+      color: '#8941ff',
+      fontWeight: '600',
+    },
+  },
+}));
+
+const StyledTabs = styled(Tabs)({
+  '&.MuiTabs-root': {
+    opacity: 0.5,
+  },
+});
+
+export const StyledAppBar = styled(AppBar)`
+  color: white;
+  position: initial;
+  margin-bottom: 40px;
+  background-color: #262431;
+`;
 
 const App = () => {
   const sortedTabsData = [...tabs].sort((a, b) => a.order - b.order);
@@ -47,32 +69,24 @@ const App = () => {
   return (
     <Box
       sx={{
-        flexGrow: 1,
-        bgcolor: 'background.paper',
         display: 'flex',
-        height: 224,
+        flexDirection: 'column',
       }}
     >
       {<LinearProgress color="inherit" />}
-      <AppBar>
+      <StyledAppBar>
         {sortedTabsData.length && (
-          <Tabs
+          <StyledTabs
             value={
               location.pathname !== '/'
                 ? location.pathname
                 : sortedTabsData[0]?.id
             }
             scrollButtons
-            aria-label="visible arrows tabs example"
-            sx={{
-              [`& .${tabsClasses.scrollButtons}`]: {
-                '&.Mui-disabled': { opacity: 0.3 },
-              },
-            }}
           >
             {sortedTabsData.length &&
               sortedTabsData.map(tab => (
-                <Tab
+                <StyledTab
                   key={tab.id}
                   label={tab.title}
                   value={tab.id}
@@ -80,9 +94,9 @@ const App = () => {
                   to={`/${tab.id}`}
                 />
               ))}
-          </Tabs>
+          </StyledTabs>
         )}
-      </AppBar>
+      </StyledAppBar>
       <Routes>
         {sortedTabsData.length &&
           sortedTabsData.map(tab => (
@@ -102,37 +116,3 @@ const App = () => {
 };
 
 export default App;
-// import React, { Suspense, lazy } from 'react';
-// import { Route, Routes, Navigate } from 'react-router-dom';
-// import tabs from './tabs.json';
-// import Layout from './components/Layout/Layout.js';
-// import Loader from './components/Loader/Loader';
-
-// export const TabLoader = lazy(() =>
-//   import('./components/DummyTable/DummyTable.jsx')
-// );
-
-// function App() {
-//   tabs.sort((a, b) => a.order - b.order);
-
-//   return (
-//     <>
-//       <Suspense fallback={<Loader />}>
-//         <Routes>
-//           <Route path="/" element={<Layout />}>
-//             {tabs.map(({ id, path, title }) => (
-//               <Route
-//                 key={id}
-//                 path={path.split('.')[0]}
-//                 element={<TabLoader title={title} />}
-//               />
-//             ))}
-//             <Route path="*" element={<Navigate to={'/tabs'} />} />
-//           </Route>
-//         </Routes>
-//       </Suspense>
-//     </>
-//   );
-// }
-
-// export default App;
